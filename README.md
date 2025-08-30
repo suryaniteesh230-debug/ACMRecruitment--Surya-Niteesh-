@@ -1,2 +1,3 @@
 # ACMRecruitment--Surya-Niteesh-
-This repo for acm club
+This repo is for ACM club.I created this for ACM recruitment portal.
+I am interested in ACM because it has game development
