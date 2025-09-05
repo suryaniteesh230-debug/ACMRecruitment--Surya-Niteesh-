@@ -1,0 +1,9 @@
+Bug:
+The original code updated "second" whenever num > second,
+but it did not check whether num == largest.
+This caused the program to return the same number as both
+largest and second largest if the maximum repeated.
+
+Fix:
+Added an extra condition "num != largest" in the elif statement.
+Now the second largest is always different from the largest.
