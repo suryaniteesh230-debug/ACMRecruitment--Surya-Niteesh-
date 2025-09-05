@@ -4,12 +4,12 @@ def second_largest(arr):
         if num > largest:
             second = largest
             largest = num
-        elif num > second and num != largest:   # fixed condition
+        elif num > second and num != largest:   # fix added
             second = num
     return second
 
 
-if __name__ == "__main__":
-    n = int(input("Enter number of elements: "))
-    arr = list(map(int, input("Enter numbers: ").split()))
-    print("Second largest:", second_largest(arr))
+n = int(input("Enter number of elements: "))
+arr = list(map(int, input("Enter numbers: ").split()))
+print("Second largest:", second_largest(arr))
+
