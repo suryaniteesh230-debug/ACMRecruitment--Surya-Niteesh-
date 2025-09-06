@@ -1,0 +1,15 @@
+the → 5
+dog → 3
+fox → 2
+lazy → 2
+quick → 2
+amused → 1
+brown → 1
+but → 1
+jumps → 1
+not → 1
+over → 1
+remained → 1
+saved → 1
+thinking → 1
+was → 1
