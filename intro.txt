@@ -1,1 +1,1 @@
-This is my intro file for ACM recruitment
+This is the intro file.
