@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f2f1; /* light teal background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #00796b; /* dark teal */
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Left Column */
+.left-column {
+    flex: 2;
+    background-color: #ffffff; /* white box */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    border-left: 6px solid #00796b; /* colored accent */
+}
+
+/* Right Column */
+.right-column {
+    flex: 1;
+    background-color: #ffffff; /* white box */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    border-left: 6px solid #004d40; /* darker accent */
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #00796b;
+}
+
+/* Paragraphs and list */
+p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #004d40;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        border-left: none;
+
