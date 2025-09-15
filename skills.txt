@@ -1,1 +1,1 @@
-Python, Git, Linux
+Python, Git, HTML, CSS, JavaScript
