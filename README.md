@@ -1,5 +1,7 @@
-# ACMRecruitment--Surya-Niteesh-
-This repo is for ACM club.I created this for ACM recruitment portal.
+** ACMRecruitment--Surya-Niteesh**
+This is a public repo.
+This repo is for ACM only.
+This has been a great oppurtunity for learning new things.
 I am interested in ACM because it has game development
 **Skills**
 - Python
